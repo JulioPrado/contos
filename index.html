@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/estilo.css">
+	<title>Contos de JulioPrado</title>
+	<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+	<!-- icone tema -->
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+<body>
+<!----------- Container artigos --------------->
+	<div id="artigos"> 
+		<div id="artigos-header">
+			<div class="centro">
+				<span id="citacaoFrase">"Escrevemos porque ninguém nos ouve."
+				</span>
+				<br/>
+				<span id="citacaoAutor" class="comentario">Georges Perros</span>
+			</div>
+		</div>
+		
+		<div id="lista-artigos">
+			<span id="temaSimbolo">
+				<span  class="lnr lnr-sun" onclick="mudaTema();">
+				</span>
+			</span>
+			<h3 class="centro">Textos</h3>
+			<ul>
+				<li>
+					<a href="artigos/existe-uma-porta.html" class="artigo-titulo">[CNT]Existe uma porta</a>
+				</li>
+				<li>
+					<a href="artigos/greenlight.html" class="artigo-titulo">[CNT]Greenlight</a>
+				</li>
+				<li>
+					<a href="artigos/so-mais-um-trabalho.html" class="artigo-titulo">[CNT]Só mais um trabalho</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- Conteudo do artigo -->
+		<div id="conteudo" class="hidden"> 
+				
+		</div>
+		<!-- fimConteudo do artigo -->
+
+		<div id="artigos-footer">
+			<a class="fechar-artigo">Fechar artigo</a>
+		</div>
+		<div id="sobre">
+			<a href="https://instagram.com/podecr3r" target="_blank">autor</a>
+		</div>
+	</div>
+	<!----------- fim Container artigos --------------->
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.js"
+	  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	  crossorigin="anonymous"></script>
+	<script src="./scriptQuery.js"></script>
+	<script src="./tema.js"></script>
+</body>
+
+</html>
